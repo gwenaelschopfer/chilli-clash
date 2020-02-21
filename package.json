@@ -1,0 +1,33 @@
+{
+  "name": "chilli-clash",
+  "version": "1.0.0",
+  "description": "A Discord bot for managing the CR - SR server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwenaelschopfer/chilli-clash.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Gwenaël Schopfer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwenaelschopfer/chilli-clash/issues"
+  },
+  "homepage": "https://github.com/gwenaelschopfer/chilli-clash#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
